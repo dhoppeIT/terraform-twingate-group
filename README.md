@@ -24,13 +24,13 @@ module "twingate_group" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_twingate"></a> [twingate](#requirement\_twingate) | ~> 3.0 |
+| <a name="requirement_twingate"></a> [twingate](#requirement\_twingate) | ~> 4.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_twingate"></a> [twingate](#provider\_twingate) | ~> 3.0 |
+| <a name="provider_twingate"></a> [twingate](#provider\_twingate) | ~> 4.0 |
 
 ## Modules
 
@@ -48,7 +48,6 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_is_authoritative"></a> [is\_authoritative](#input\_is\_authoritative) | Determines whether User assignments to this Group will override any existing assignments | `bool` | `true` | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the group | `string` | n/a | yes |
-| <a name="input_security_policy_id"></a> [security\_policy\_id](#input\_security\_policy\_id) | Defines which Security Policy applies to this Group | `string` | `null` | no |
 | <a name="input_user_ids"></a> [user\_ids](#input\_user\_ids) | List of User IDs that have permission to access the Group | `list(string)` | `[]` | no |
 
 ## Outputs

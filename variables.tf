@@ -9,12 +9,6 @@ variable "is_authoritative" {
   description = "Determines whether User assignments to this Group will override any existing assignments"
 }
 
-variable "security_policy_id" {
-  type        = string
-  default     = null
-  description = "Defines which Security Policy applies to this Group"
-}
-
 variable "user_ids" {
   type        = list(string)
   default     = []
