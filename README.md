@@ -13,7 +13,7 @@ specify the required variables and run the command `terraform init`.
 module "twingate_group" {
   source  = "gitlab.com/terraform-child-modules-48151/terraform-twingate-group/local"
   <!-- renovate: datasource=gitlab-tags depName=terraform-child-modules-48151/terraform-twingate-group extractVersion=^v(?<version>.*)$ -->
-  version = "1.0.0"
+  version = "2.0.0"
 
   name = "example-group"
 }
